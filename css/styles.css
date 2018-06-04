@@ -1,0 +1,165 @@
+/* font-family: 'Cabin Condensed', sans-serif;
+font-family: 'Dosis', sans-serif; */ 
+
+/* estilos generales */ 
+body {
+    font-family: 'Dosis', sans-serif;
+}
+.bg-primary {
+    background-color: #5b74ac!important;
+}
+
+.fixed-top {
+     transition: all .5s ease;
+}
+
+.fixed-top.bg-primary {
+     -webkit-box-shadow: 0px 6px 28px -5px rgba(0,0,0,0.74);
+     -moz-box-shadow: 0px 6px 28px -5px rgba(0,0,0,0.74);
+     box-shadow: 0px 6px 28px -5px rgba(0,0,0,0.74);
+}
+
+a.titulo {
+    font-family: 'Cabin Condensed', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+h2.titulo,
+h3.titulo {
+    font-family: 'Cabin Condensed', sans-serif;
+}
+
+a.nav-link {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+div.bg-books {
+    background-image: url(../img/booksandlanguages.jpg);
+    height: 30rem;
+    background-position: center center;
+    background-size: cover;
+}
+
+/* sobre mí */ 
+
+div.circulo-blanco {
+    border-radius: 100%;
+    width: 11rem;
+    height: 11rem;
+    margin: 0 auto;
+}
+
+img.leonidas {
+    width: 10rem;
+    height: 10rem;
+    margin: 0 5%;
+    border: 3px solid #5b74ac;
+    border-radius: 50%;
+}
+
+div.imagen-sobre {
+    background-image: url(../img/note.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+p.biografia {
+    font-size: 1.1rem;
+}
+
+/* Cursos */
+
+div.bg-cursos {
+    background-image: url(../img/blackboard.jpg);
+    height: 40rem; /* ver tamaño responsive */ 
+    background-size: cover;
+    background-position: center center;
+}
+
+p.mis-cursos {
+    font-size: 1.3rem;
+}
+
+
+
+@media (max-width: 991px) {
+    div.bg-cursos {
+        height: 63rem;
+     }
+
+    td {
+    font-size: .8rem;
+}
+
+}
+
+/* testimoniales */
+
+.testimonial .contenido .circulo-blanco {
+    width: 9rem;
+    height: 9rem;
+    margin: 0 auto;
+}
+
+.circulo-blanco img.test {
+    width: 8rem;
+    height: 8rem;
+    margin: 0 6%;
+    border: 3px solid #5b74ac;
+    border-radius: 50%;
+}
+
+/* ventajas */
+
+img.img-ventajas {
+    width: 20rem;
+}
+
+
+h2.titulo.ventajas,
+h3.titulo.ventajas {
+    color: #5b74ac;
+}
+
+h2.separador::after {
+    content: '';
+    display: block;
+    width: 200px;
+    height: .5rem;
+    background-color: #5b74ac;
+    margin: 10px auto;
+}
+
+/* sé global */
+
+span.correo {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+button.boton-formulario {
+    color: #5b74ac;
+    font-size: 1.1rem;
+    border: none;
+    margin: 0 45%;
+}
+
+@media (max-width: 991px) {
+    button.boton-formulario {
+    margin: 0 30%;
+    }
+}
+
+button.boton-formulario:hover {
+    color: white;
+    background-color: #8197c5;
+}
+
+p.biografia.validacion {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
